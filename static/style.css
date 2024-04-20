@@ -1,0 +1,160 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: i;
+    background-image: url("/static/upload/REMAINDa.OrgBanner.png");
+    background-size: cover;
+}
+
+/* Navbar container */
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* Add padding to navbar */
+}
+
+/* Logo container */
+.logo-container {
+    margin-right: 20px;
+    /* Add margin to separate logo from other elements */
+}
+
+/* Logo image */
+.logo {
+    width: 80px;
+    /* Adjust width as needed */
+    height: 80px;
+    /* Maintain aspect ratio */
+}
+
+/* Navbar links */
+.navbar-links a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+/* Login and Get Started buttons */
+.login-get-started a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+/* Get Started button */
+.get-started-button {
+    background-color: #eb772d;
+    border-radius: 4px;
+}
+
+/* Change background color of navbar links on hover */
+.navbar-links a:hover {
+    background-color: #eb772d;
+    color: black;
+}
+
+/* Style for the reminder bot container */
+.reminder-bot-container {
+    background-color: #eb772d;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Style for the reminder bot header */
+.reminder-bot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Style for the reminder bot content */
+.reminder-bot-content {
+    display: none;
+    /* Initially hidden */
+    overflow: hidden;
+}
+
+/* Style for the reminder bot form fields */
+.reminder-bot-form {
+    display: block;
+    /* Ensure the form fields are visible */
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eb772d;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #789f59;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #789f59;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #9b0303;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* Remove default margin */
+    display: flex;
+    /* Display navbar links as flexbox */
+    justify-content: center;
+    /* Center the navbar links */
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
